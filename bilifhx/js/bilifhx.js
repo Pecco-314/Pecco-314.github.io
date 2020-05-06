@@ -39,9 +39,10 @@ function contribute() {
             msg: "确定要提交吗？请确保你提交的词条准确无误。",
             onOk: function () {
                 let obj = $("#myform").serialize();
+                console.log(obj);
                 $.ajax({
                     type: "post",
-                    url: "https://formspree.io/pecco@qq.com",
+                    url: "https://formspree.io/mlepeoda",
                     async: true,
                     data: obj,
                     dataType: "json",
