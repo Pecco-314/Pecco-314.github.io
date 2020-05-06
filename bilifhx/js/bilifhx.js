@@ -32,7 +32,7 @@ function check() {
 }
 
 function contribute() {
-    if ($("#word").val() == "" || $("#replacer").val() == "" || $("#email").val() == "") {
+    if ($("#word").val() == "" || $("#replacer").val() == "") {
         Alert("请完整填写表单！");
     } else
         Confirm({
