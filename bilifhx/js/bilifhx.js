@@ -8,6 +8,7 @@ const repl3 = ["moha"];
 $(function () {
     const len = dict1.length + dict2.length + dict3.length;
     $("#stat").text("现收录" + len + "条敏感词");
+    $("#confirm-submit-button").on("click", contribute);
 });
 
 function check() {
